@@ -1,7 +1,9 @@
+/*
 let electron;
 if(!process.argv.includes("--disable-electron")){
   electron = require("electron");
 }
+*/
 const compression = require("compression");
 const appInformation = require("./package.json");
 const express = require("express");
